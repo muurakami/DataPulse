@@ -8,9 +8,9 @@ def iter_csv(path: Path) -> Iterator[dict[str, str]]:
         raise FileNotFoundError(f"File not found: {path}")
     if not path.is_file():
         raise ValueError(f"Not a file: {path}")
-    if not path.suffix.lower() != ".csv":
+    if path.suffix.lower() != ".csv":
         raise ValueError(f"Not a CSV file: {path}")
-    if path.stat().st_siz == 0:
+    if path.stat().st_size == 0:
         raise ValueError(f"Empty file: {path}")
     with open(path, newline="", encoding="utf-8") as file:
         yield from csv.DictReader(file)

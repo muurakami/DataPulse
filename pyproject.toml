@@ -12,6 +12,7 @@ csv-stats = "csv_stats.main:main"   # после uv sync запускается 
 strict = true
 python_version = "3.12"
 mypy_path = "src"
+packages = ["csv_stats"]
 
 [tool.ruff]
 line-length = 88
@@ -22,6 +23,11 @@ select = ["E", "F", "I", "UP"]     # errors, pyflakes, isort, upgrades
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/csv_stats"]
