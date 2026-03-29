@@ -3,7 +3,9 @@ name = "csv-stats"
 version = "0.1.0"
 description = "CLI tool for CSV column statistics"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.12.5",
+]
 
 [project.scripts]
 csv-stats = "csv_stats.main:main"   # после uv sync запускается как `csv-stats`
