@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 25428,
+  "port": 8888,
+  "root_dir": "C:\\Users\\Admin\\Desktop\\DataPulse\\csv-stats\\src",
+  "secure": false,
+  "sock": "",
+  "token": "d66fbe0ebecc3f7647da0e5b5907262600c4f9ce5a6ab45d",
+  "url": "http://localhost:8888/",
+  "version": "2.17.0"
+}

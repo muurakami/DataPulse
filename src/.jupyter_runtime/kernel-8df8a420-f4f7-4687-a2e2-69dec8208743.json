@@ -1,0 +1,13 @@
+{
+  "shell_port": 49649,
+  "iopub_port": 49650,
+  "stdin_port": 49651,
+  "control_port": 49653,
+  "hb_port": 49652,
+  "ip": "127.0.0.1",
+  "key": "1a47b0c2-c6bb20a92420e80d7092f5fc",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "C:\\Users\\Admin\\Desktop\\DataPulse\\csv-stats\\src\\csv_stats\\Untitled.ipynb"
+}

@@ -1,8 +1,8 @@
 import argparse
 from pathlib import Path
 
-from csv_stats.parser import iter_csv
-from csv_stats.stats import column_stats
+from .parser import iter_csv
+from .stats import column_stats
 
 
 def main() -> None:
